@@ -16,7 +16,7 @@ touch src/harfbuzz-icu.def
 touch src/harfbuzz-gobject.def
 
 echo "**BUILD STARTED**"
-make
+make -j $(nproc)
 echo "**BUILD COMPLETE**"
 make install
 
