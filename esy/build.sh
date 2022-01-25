@@ -1,3 +1,4 @@
+#!/bin/sh
 cd _build
 
 # Automake gets brought in unnecessarily for the release package - 
